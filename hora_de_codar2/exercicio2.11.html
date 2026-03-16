@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        //11. Uma micro calculadora Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações 
+        // a serem executadas (codificada da seguinte forma: 1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação). 
+        // O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos. 
+        // Observação: Considere que só serão lidos os valores 1, 2, 3 ou 4 para as operações
+
+        var valor1 = parseInt(prompt("Digite o primeiro valor inteiro: "));
+        var valor2 = parseInt(prompt("Digite o segundo valor inteiro: "));
+
+        var operacao = parseInt(prompt("Digite a operação a ser executada (1 para Adição, 2 para Subtração, 3 para Divisão, 4 para Multiplicação): "));
+        
+        switch (operacao) {
+            
+            case 1: 
+            alert("Resultado da Adição: " + (valor1 + valor2));
+            break;
+
+            case 2:
+            alert("Resultado da Subtração: " + (valor1 - valor2));
+            break;
+
+            case 3:
+            alert("Resultado da divisão: " + (valor1 / valor2));
+            break;
+
+            case 4:
+            alert("Resultado da multiplicação: " + (valor1 * valor2));
+            break;
+
+        }
+         
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
