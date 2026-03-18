@@ -1,4 +1,4 @@
-# 📘 Exercícios de Lógica com JavaScript
+# 📘 Hora de Codar 2
 
 Este repositório contém exercícios de **lógica de programação desenvolvidos em JavaScript**, com foco na prática de conceitos fundamentais da linguagem e no desenvolvimento do raciocínio lógico!
 
